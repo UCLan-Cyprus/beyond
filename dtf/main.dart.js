@@ -55445,7 +55445,7 @@ au(){this.aJ()
 A.dU().ab(new A.aUt(this),t.cZ)},
 H(a){var s=null
 A.Au(A.b([B.lb],t.UW))
-if(A.br(a,s,t.w).w.a.a<800)return A.dM(A.bY(A.b([B.Nh,A.b56(20),B.a6L,A.b56(20),A.biY(B.Ne,B.a6G,new A.aUr(),A.tM(s,s,B.i,s,s,s,s,s,s,B.n,s,s,s,s,s,s,s,s,s,s))],t.p),B.r,B.bU,B.y,B.C),s,s)
+if(A.br(a,s,t.w).w.a.a<600)return A.dM(A.bY(A.b([B.Nh,A.b56(20),B.a6L,A.b56(20),A.biY(B.Ne,B.a6G,new A.aUr(),A.tM(s,s,B.i,s,s,s,s,s,s,B.n,s,s,s,s,s,s,s,s,s,s))],t.p),B.r,B.bU,B.y,B.C),s,s)
 return A.Uw(new A.aUs(this),A.U4("assets/story/stories_ric_dtf_case.json"),t.vF)}}
 A.aUt.prototype={
 $1(a){return this.a.d=a},
