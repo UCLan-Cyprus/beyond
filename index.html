@@ -1,50 +1,116 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>BEYOND Training - Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe</title>
+	<link rel="icon" type="image/x-icon" href="BEYOND_Icon.png">
+    <style>
+        body {
+            background-color: black;
+            color: white; /* Ensures text is visible on black */
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column; /* Stack Title DIV and Image DIV vertically */
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-        <style>
-            a:link {
-            color: white;
-            background-color: transparent;
-            text-decoration: none;
+        /* Title Styling */
+        .header-div {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 40px; /* Space between title and images */
+        }
+
+        .header-div h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        /* The Image Container */
+        .container {
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap;     
+            justify-content: center;
+            gap: 20px;           
+        }
+
+        .container img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+
+        /* Responsive Logic */
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
             }
-
-            a:visited {
-            color: lightgray;
-            background-color: transparent;
-            text-decoration: none;
+            .header-div h1 {
+                font-size: 1.8rem; /* Smaller text for mobile */
             }
+        }
 
-            a:hover {
-            color: white;
-            background-color: transparent;
-            text-decoration: underline;
-            }
+		/* Customized appearance of links */
+		a:link {
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+		}
 
-            a:active {
-            color: white;
-            font-weight: bold;
-            background-color: transparent;
-            text-decoration: underline;
-            }
-        </style>
+		a:visited {
+		color: lightgray;
+		background-color: transparent;
+		text-decoration: none;
+		}
 
-    </head>
-    <body style="background-color: black; margin: 24px;">
+		a:hover {
+		color: white;
+		background-color: transparent;
+		text-decoration: underline;
+		}
 
-        <h1 style="color: white;">BEYOND</h1>
-        <h2 style="color: white;">Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe</h2>
+		a:active {
+		color: white;
+		font-weight: bold;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+    </style>
+</head>
+<body>
 
-        <table>
-            <tr style="text-align: center;">
-                <td>
-                    <a href="dtf/index.html">
-                        <img src="dtf/assets/assets/images/research-integrity-club-cover.png" width="250"/>
-                        <h1 style="font-variant: small-caps;">Disruption to Funding</h1>
-                    </a>
-                </td>
-            </tr>
-        </table>
+    <div class="header-div">
+			<a href="https://beyondbadapples.eu" target="_blank"><img src="./BEYOND_Logo.png"</a>
+			<h2 style="color: white;">Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe</h2>
+    </div>
 
-    </body>
+    <div class="container">
+		<div style="text-align: center;">
+			<a href="dtf/index.html">
+				<img src="dtf/assets/assets/images/research-integrity-club-cover.png" width="250" alt="research integrity club - disruption to funding"/>
+				<h1 style="font-variant: small-caps;">Disruption to Funding</h1>
+			</a>
+		</div>
+		<div>
+<!--			<img src="dtf/assets/assets/images/research-integrity-club-cover.png" width="250" alt="research integrity club - disruption to funding"/>
+				<h1 style="font-variant: small-caps;">Disruption to Funding</h1> -->
+		</div>
+		<div>
+<!--			<img src="dtf/assets/assets/images/research-integrity-club-cover.png" width="250" alt="research integrity club - disruption to funding"/>
+				<h1 style="font-variant: small-caps;">Disruption to Funding</h1> -->
+		</div>
+		<div>
+<!--			<img src="dtf/assets/assets/images/research-integrity-club-cover.png" width="250" alt="research integrity club - disruption to funding"/>
+				<h1 style="font-variant: small-caps;">Disruption to Funding</h1> -->
+		</div>
+    </div>
+
+</body>
 </html>
