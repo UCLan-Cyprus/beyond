@@ -1,9 +1,0 @@
-{
-  "$id": "http://prepared-project.eu/discussion_message",
-  "type": "object",
-  "properties": {
-    "senderIndex": {"type": "number"},
-    "text": {"type": "string"}
-  },
-  "required": ["senderIndex", "text"]
-}
