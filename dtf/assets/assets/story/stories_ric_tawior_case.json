@@ -1,0 +1,179 @@
+{
+  "title": "Translations and What is Original Research",
+  "shortTitle": "What is Original Research",
+  "bannerImageURL": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/tawior.png",
+  "id": "what_is_original_research",
+  "metadata": {
+    "createdOn": 1748849967,
+    "lastEdited": 1748849967,
+    "authors": [
+      "Doris Schroeder",
+      "Hazel Partington",
+      "Kadri Simm"
+    ]
+  },
+  "startingComponentID": "tawior_index",
+  "components": [
+
+    {
+      "id": "tawior_index",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/tawior_index.html"
+    },
+
+    {
+      "id": "tawior_video",
+      "type": "video",
+      "content": "<h1>Translations and what is original research?</h1>",
+      "videoURL": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/Research%20Integrity%20Club%20Case%202%20-%20TRUST%20and%20PREPARED%20Global%20Research%20Ethics.mp4",
+      "startTime": 0,
+      "endTime": 0
+    },
+
+    {
+      "id": "tawior_poll_before",
+      "type": "multipoll",
+      "minSelections": 1,
+      "maxSelections": 4,
+      "columns": 1,
+      "prompt": "Please be honest. These polls are anonymous. ",
+      "content": "Which of these options do you find convincing? You can tick more than one option.",
+      "options": [
+        {
+          "id": 0,
+          "title": "The vast majority of scientific research is published in English. Climate change is a killer. I owe it to science to publish our results. Because I made small modifications and because my co-researchers are not interested, I will go ahead and bring our results to the world.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "I will write to the most suitable journal and explain the situation. They should be highly interested in our results and can hopefully provide guidance.",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "On second thoughts, I will not submit the modified piece in English for publication. I don’t understand enough about publication ethics, and I don’t want to do anything inappropriate.",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "I will talk to a research integrity officer and go with their advice.",
+          "description": ""
+        }
+      ],
+      "feedback": "If you are a native English speaker, you may find it difficult to empathise with this dilemma as you do not need to consider what language to publish in when submitting a research paper. This case is therefore most interesting for researchers for whom this is not the case. However, native English speakers, might still learn something from the following guided discussion."
+    },
+
+    {
+      "id": "tawior_discussion_1",
+      "type": "discussion",
+      "participants": [
+        {
+          "name": "Author",
+          "image": "assets/images/researcher.png"
+        },
+        {
+          "name": "Research Integrity Officer",
+          "image": "assets/images/ethicist.png"
+        }
+      ],
+      "messages": [
+        {
+          "text": "I have undertaken ground-breaking research on climate change together with two colleagues. I now want to bring this to an English audience. What should I do?",
+          "senderIndex": 0
+        },
+        {
+          "text": "First of all, congratulations. Please explain a bit more what you mean and how I can help as a research integrity officer.",
+          "senderIndex": 1
+        },
+        {
+          "text": "We published our research in a local journal, not in English. But English is the global communication medium in science. Hence, I translated the piece and made some modifications. That way I hope it will be considered as original research by an English journal.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Ok, I understand. A publication counts as original research when it presents new insights, theories, or data that have not been published before. You can definitely republish earlier findings, but there has to be a novel component, for instance, new data or a new interpretation. Is that the case?",
+          "senderIndex": 1
+        },
+        {
+          "text": "I don’t have new data, I just wanted to expand some areas of the analysis and shrink others, so that the English article looks different from our first piece.",
+          "senderIndex": 0
+        },
+        {
+          "text": "That sounds more like minor modifications and that wouldn't be enough. You wouldn't have a novel component, you would just have a different presentation of your findings. What do the co-authors of the original piece think?",
+          "senderIndex": 1
+        },
+        {
+          "text": "I spoke to them and they aren't keen to try for an English publication with only small modifications. But our findings are important for the world. How do I get them to an English, and therefore global, audience?",
+          "senderIndex": 0
+        },
+        {
+          "text": "This is not a black and white decision between publishing as an original piece or not publishing. Have you heard of secondary publications?",
+          "senderIndex": 1
+        },
+        {
+          "text": "No, I haven't.",
+          "senderIndex": 0
+        },
+        {
+          "text": "There are different meanings and one of them is relevant to you. It is perfectly allowed to duplicate a publication in a foreign language, but then you have to do three main things: first, you have to reference the original publication and make sure readers understand that there is no novelty, just a translation. Second, you have to obtain the permission of the first publisher. Third, you have to obtain permission from your co-authors. When you have these three in place, your research can be republished in a different language if you find a publisher.",
+          "senderIndex": 1
+        },
+        {
+          "text": "Does this happen often? Are editors used to this?",
+          "senderIndex": 0
+        },
+        {
+          "text": "Actually, it is often the other way round. Bilingual researchers publish first in English. Like you said, it is the language of science. But then they want their own language community to benefit and therefore republish in their native language.",
+          "senderIndex": 1
+        },
+        {
+          "text": "I understand, thank you very much for your advice.",
+          "senderIndex": 0
+        },
+        {
+          "text": "It’s a pleasure and good luck.",
+          "senderIndex": 1
+        }
+      ]
+    },
+
+    {
+      "id": "tawior_poll_after",
+      "type": "multipoll",
+      "minSelections": 1,
+      "maxSelections": 4,
+      "columns": 1,
+      "prompt": "Please be honest. These polls are anonymous.",
+      "content": "Now that you have followed this discussion, have you changed your opinion about what you would do?\nLet's find out.\nWhich of these options do you find convincing? You can tick more than one option.",
+      "options": [
+        {
+          "id": 0,
+          "title": "The vast majority of scientific research is published in English. Climate change is a killer. I owe it to science to publish our results. Because I made small modifications and because my co-researchers are not interested, I will go ahead and bring our results to the world.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "I will write to the most suitable journal and explain the situation. They should be highly interested in our results and can hopefully provide guidance. ",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "On second thoughts, I will not submit the modified piece in English for publication. I don't understand enough about publication ethics and I don't want to do anything inappropriate.",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "I will talk to a research integrity officer and go with their advice.",
+          "description": ""
+        }
+      ],
+      "feedback": "Thank you! You answer has been submitted."
+    },
+
+    {
+      "id": "tawior_end",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/tawior_end.html"
+    }
+  ],
+  "thumbnailURL": "assets/images/logo_horizontal.jpg"
+}
