@@ -1,0 +1,217 @@
+{
+  "title": "The case of the gate keeper",
+  "shortTitle": "Gate keeper",
+  "bannerImageURL": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/gatekeeper/gatekeeper_bw.png",
+  "id": "gate_keeper",
+  "metadata": {
+    "createdOn": 1768206020,
+    "lastEdited": 1768206020,
+    "authors": [
+      "Doris Schroeder",
+      "Kate Chatfield",
+      "Kadri Simm"
+    ]
+  },
+  "startingComponentID": "gk_index",
+  "components": [
+
+    {
+      "id": "gk_index",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/gatekeeper/gatekeeper_index.html"
+    },
+
+    {
+      "id": "gk_video",
+      "type": "video",
+      "content": "<h1>The case of the gate keeper</h1>",
+      "videoURL": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/gatekeeper/Research_Integrity_Club_Case_3_720P.mp4",
+      "startTime": 0,
+      "endTime": 0
+    },
+
+    {
+      "id": "gk_definition",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/gatekeeper/gatekeeper_definition.html"
+    },
+
+    {
+      "id": "gk_poll_before",
+      "type": "multipoll",
+      "minSelections": 1,
+      "maxSelections": 7,
+      "columns": 1,
+      "prompt": "Please be honest. These polls are anonymous. ",
+      "content": "Which of these options do you find convincing? You can tick more than one option.",
+      "options": [
+        {
+          "id": 0,
+          "title": "My impulse is to help, but if I intervene, this might escalate the situation. Hence, I steal away quietly and do not follow up.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "I do not know enough about prisons, maybe this is routine behaviour. It has nothing to do with me.",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "As I am quite far away, I retreat and make notes about what happened prior to contacting the research ethics committee that provided my research approval.",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "I have no idea what to do, nobody has prepared me for this.",
+          "description": ""
+        },
+        {
+          "id": 4,
+          "title": "I approach the prison officer and ask him what he is doing.",
+          "description": ""
+        },
+        {
+          "id": 5,
+          "title": "The well-being of future prisoners in solitary confinement is dependent on my research. I have to ignore this incident to retain access to research participants.",
+          "description": ""
+        },
+        {
+          "id": 6,
+          "title": "I retreat in search of the head of the prison to report what I have seen.",
+          "description": ""
+        }
+      ],
+      "feedback": "When gatekeepers seem to act unethically, this presents a major dilemma for researchers. Following the incident, the researcher spoke to somebody from the research ethics committee that approved her research."
+    },
+
+    {
+      "id": "gk_discussion_1",
+      "type": "discussion",
+      "title": "Follow this discussion between the researcher and a research ethics committee member.",
+      "participants": [
+        {
+          "name": "Researcher",
+          "image": "assets/images/gk_researcher.png"
+        },
+        {
+          "name": "Research Ethics Committee member",
+          "image": "assets/images/gk_rec_member.png"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Thank you very much for your time at short notice.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Of course. Please tell me what prompted you to make this appointment.",
+          "senderIndex": 1
+        },
+        {
+          "text": "As part of my research study in prisons, which your committee approved, I saw a prison officer bully an inmate.",
+          "senderIndex": 0
+        },
+        {
+          "text": "What happened exactly?",
+          "senderIndex": 1
+        },
+        {
+          "text": "The guard pushed the prisoner to the ground and shouted at him. I was quite far away, so I couldn't hear the exact words, but the prisoner looked afraid, and as though he was trying to protect himself.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Did either of them see you?",
+          "senderIndex": 1
+        },
+        {
+          "text": "No, I don't think so and there was nobody else in the vicinity.",
+          "senderIndex": 0
+        },
+        {
+          "text": "My first suggestion is that you write down exactly what you saw with dates and times. Do you have any idea who the guard and the prisoner were?",
+          "senderIndex": 1
+        },
+        {
+          "text": "I already made notes and I don't know the prisoner. But I do know the guard and that's the problem. He is the person who gives me access to research participants. As you know, it's extremely difficult to do research in prisons and without the final interviews my data set is incomplete. I just didn't know what to do. It didn't look as though there was an immediate risk to life, so I left.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Even if there was no threat to life, this seems to have been an abuse of power. It could also lead to significant emotional harm. Legally, there is no mandatory reporting duty in our country, unless it is child abuse, but our ethics committee requires reporting. You did well to come here.",
+          "senderIndex": 1
+        },
+        {
+          "text": "And what should I do now? My research has the potential to lead to better protections for prisoners, but I must complete my interviews.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Every case is unique, but based on what you've described, this situation could potentially be addressed as a whistleblowing matter. Most prisons have mechanisms in place for reporting abuse anonymously or confidentially and given the size of the facility you're working with it is likely that such systems are available.",
+          "senderIndex": 1
+        },
+        {
+          "text": "So, you think I should report what I saw?",
+          "senderIndex": 0
+        },
+        {
+          "text": "Yes, if you can do so anonymously or confidentially, I think that is currently the best option. But please come back and talk to me again if this is not taken seriously or you encounter other problems.",
+          "senderIndex": 1
+        },
+        {
+          "text": "Thank you very much.",
+          "senderIndex": 0
+        }
+      ]
+    },
+
+    {
+      "id": "gk_poll_after",
+      "type": "poll",
+      "prompt": "Please be honest. These polls are anonymous.",
+      "content": "Now that you have followed this discussion,\rplease tick the option that you are most convinced of.\rOnly tick one option.",
+      "options": [
+        {
+          "id": 0,
+          "title": "My impulse is to help, but if I intervene, this might escalate the situation. Hence, I steal away quietly and do not follow up.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "I do not know enough about prisons, maybe this is routine behaviour. It has nothing to do with me.",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "As I am quite far away, I retreat and make notes about what happened prior to contacting the research ethics committee that provided my research approval.",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "I have no idea what to do, nobody has prepared me for this.",
+          "description": ""
+        },
+        {
+          "id": 4,
+          "title": "I approach the prison officer and ask him what he is doing.",
+          "description": ""
+        },
+        {
+          "id": 5,
+          "title": "The well-being of future prisoners in solitary confinement is dependent on my research. I have to ignore this incident to retain access to research participants.",
+          "description": ""
+        },
+        {
+          "id": 6,
+          "title": "I retreat in search of the head of the prison to report what I have seen.",
+          "description": ""
+        }
+      ],
+      "feedback": "Thank you! You answer has been submitted."
+    },
+
+    {
+      "id": "gk_end",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/gatekeeper/gatekeeper_end.html"
+    }
+  ],
+  "thumbnailURL": "assets/images/logo_horizontal.jpg"
+}
