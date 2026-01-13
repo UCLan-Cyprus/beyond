@@ -20,13 +20,30 @@
 
         /* Title Styling */
         .header-div {
-            width: 100%;
+            max-width: 1024px;
             text-align: center;
             margin-bottom: 40px; /* Space between title and images */
         }
 
-        .header-div h1 {
-            font-size: 2.5rem;
+        .header-div-left {
+            max-width: 500px;
+            text-align: right;
+            padding-top: 10px;
+            padding-right: 10px;
+            border-right: 2px solid gray;
+            float: left;
+        }
+
+        .header-div-right {
+            max-width: 500px;
+            text-align: left;
+            padding-top: 10px;
+            padding-left: 10px;
+            float: right;
+        }
+
+        .header-div-left h1 h2 {
+            font-size: 2.2rem;
             margin: 0;
         }
 
@@ -59,43 +76,57 @@
 
 		/* Customized appearance of links */
 		a:link {
-		color: white;
-		background-color: transparent;
-		text-decoration: none;
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
 		}
 
 		a:visited {
-		color: lightgray;
-		background-color: transparent;
-		text-decoration: none;
+            color: lightgray;
+            background-color: transparent;
+            text-decoration: none;
 		}
 
 		a:hover {
-		color: white;
-		background-color: transparent;
-		text-decoration: underline;
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
 		}
 
 		a:active {
-		color: white;
-		font-weight: bold;
-		background-color: transparent;
-		text-decoration: underline;
+            color: white;
+            font-weight: bold;
+            background-color: transparent;
+            text-decoration: underline;
 		}
     </style>
 </head>
 <body>
 
-    <div class="header-div" style="max-width: 1024px;">
-        <a href="https://beyondbadapples.eu" target="_blank"><img src="./BEYOND_Logo.png" alt="BEYOND EU Project banner - Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe"></a>
-        <h2 style="color: white;">Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe</h2>
-        <span>
-            The case studies in the Research Integrity Club present short integrity dilemmas.
-        </span>
+    <div class="header-div">
+        <div class="header-div-left">
+            <a href="https://beyondbadapples.eu" target="_blank"><img src="./BEYOND_Logo.png" alt="BEYOND EU Project banner - Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe"></a>
+<!--            <h2 style="color: white;">BEYOND Bad Apples</h2>-->
+            <div style="height:17px;"></div>
+            <p><a href="https://beyondbadapples.eu" target="_blank" style="font-size: 1.5rem;">https://beyondbadapples.eu</a></p>
+        </div>
+
+        <div class="header-div-right">
+            <a href="https://preparedproject.eu" target="_blank"><img src="./PREPARED_Logo.png" height="100" alt="BEYOND EU Project banner - Beyond Bad Apples: Towards a Behavioral and Evidence-Based Approach to Promote Research Ethics and Research Integrity in Europe"></a>
+<!--            <h2 style="color: white;">PREPARED</h2>-->
+            <p><a href="https://prepared-project.eu" target="_blank" style="font-size: 1.5rem;">https://prepared-project.eu</a></p>
+        </div>
+    </div>
+
+    <div class="header-div">
+        <span style="font-size: 1.2rem;">
+                The case studies in the <b style="font-weight: bold;">Research Integrity Club</b> present short integrity dilemmas.
+            </span>
         <br/>
         <span>
-            In each case, an animation illustrates the dilemma, followed by a poll and a guided discussion.
+                In each case, an animation illustrates the dilemma, followed by a poll and a guided discussion.
         </span>
+
     </div>
 
     <div class="container">
