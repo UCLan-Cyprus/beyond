@@ -1,0 +1,159 @@
+{
+  "title": "Disruption to Funding",
+  "shortTitle": "Disruption to Funding",
+  "bannerImageURL": "https://storage.googleapis.com/prepared-project.appspot.com/stories/ric/research-integrity-club-cover.png",
+  "id": "research_integrity_club",
+  "metadata": {
+    "createdOn": 1748849967,
+    "lastEdited": 1748849967,
+    "authors": [
+      "Doris Schroeder",
+      "Kate Chatfield",
+      "Kadri Simm"
+    ]
+  },
+  "startingComponentID": "index",
+  "components": [
+
+    {
+      "id": "index",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/ric_index.html"
+    },
+
+    {
+      "id": "ric_video",
+      "type": "video",
+      "content": "",
+      "videoURL": "https://storage.googleapis.com/prepared-project.appspot.com/stories/ric/ric_video.mp4",
+      "startTime": 0,
+      "endTime": 0
+    },
+
+    {
+      "id": "ric_poll_1",
+      "type": "poll",
+      "prompt": "Please be honest. These polls are anonymous. ",
+      "content": "What advice do you give to Dr Blue?",
+      "options": [
+        {
+          "id": 0,
+          "title": "I recommend that Dr Blue check whether there are biologists who are already on the payroll at the university who might fit the requirements of the grant.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "I explain my dilemma to Dr Blue and ask whether help might be possible through Blue's grant so that my research assistant can stay at the university through these difficult times. It is only for a short time.",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "I would encourage Dr Blue to explain to the funder that the project cannot start immediately and that an extension is needed.",
+          "description": ""
+        }
+      ],
+      "feedback": "Maybe you found this question difficult because you have never been the recipient of a grant and are not familiar with the way the funding is allocated to different activities. If so, you will find the following guided discussion useful."
+    },
+
+    {
+      "id": "discussion_1",
+      "type": "discussion",
+      "participants": [
+        {
+          "name": "Research Institute Accountant",
+          "image": "assets/images/accountant.jpg"
+        },
+        {
+          "name": "Scholar",
+          "image": "assets/images/scholar.jpg"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Thanks for coming to this meeting. We are holding them on a one-to-one basis for all first-time grant-holders. Please interrupt me with your questions at any time.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Thank you!",
+          "senderIndex": 1
+        },
+        {
+          "text": "The most important thing to remember is that research funding comes with a funding agreement. That's a legal agreement, like a contract, which sets out the conditions and the obligations of both parties. In short, in return for the funding, you are expected to comply with what it says in the contract.",
+          "senderIndex": 0
+        },
+        {
+          "text": "So, what does that mean exactly?",
+          "senderIndex": 1
+        },
+        {
+          "text": "In your case, we have a grant agreement with the European Union. If you count all pages in this agreement, it'll be several hundred. Today, we will focus on the budget. The funding agreement specifies exactly what the budget can be spent on. There is some flexibility to move money between categories, but the rules are strict.",
+          "senderIndex": 0
+        },
+        {
+          "text": "How strict? I calculated the budget some time ago while developing the proposal. How am I expected to know what I'll need in 2-3 years' time when I'll be in the middle of the implementation?",
+          "senderIndex": 1
+        },
+        {
+          "text": "Good question, but this is not negotiable. Research funders almost never re-negotiate budgets. If you are lucky, you get what you asked for and you must keep to it. There is normally only minor flexibility.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Are there flexibilities about whom to employ?",
+          "senderIndex": 1
+        },
+        {
+          "text": "Regarding employment, you must adhere to at least these two things: (1) respect the legal rules that apply to our institution. These include, for example, equal opportunities and selecting the most suitable person in an unbiased manner, and (2) spending of the personnel budget in a manner that is \"directly linked to the action implementation\", as it says in the funding agreement.",
+          "senderIndex": 0
+        },
+        {
+          "text": "What does number two mean?",
+          "senderIndex": 1
+        },
+        {
+          "text": "It means that however exciting a side-line to your research might appear, if it is not covered by the funding agreement, you cannot spend personnel time on it. You can only employ people that are selected as the best fit for the job to undertake the tasks that are mentioned in the funding agreement.",
+          "senderIndex": 0
+        },
+        {
+          "text": "And what happens if I do not adhere to the funding agreement?",
+          "senderIndex": 1
+        },
+        {
+          "text": "As a first consequence, the full budget will not be paid out. As a second consequence and depending on the type of violation, the university might be excluded from future applications to that funding scheme.",
+          "senderIndex": 0
+        }
+      ]
+    },
+
+    {
+      "id": "ric_poll_2",
+      "type": "poll",
+      "prompt": "Now that you have followed this discussion, have you changed your opinion about what you would do? Let's find out.",
+      "content": "What advice do you give to Dr Blue?",
+      "options": [
+        {
+          "id": 0,
+          "title": "I recommend that Dr Blue check whether there are biologists who are already on the payroll at the university who might fit the requirements of the grant.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "I explain my dilemma to Dr Blue and ask whether help might be possible through Blue's grant so that my research assistant can stay at the university through these difficult times. It is only for a short time.",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "I would encourage Dr Blue to explain to the funder that the project cannot start immediately and that an extension is needed. I don't mention my research assistant.",
+          "description": ""
+        }
+      ],
+      "feedback": "Thank you! You answer has been submitted."
+    },
+
+    {
+      "id": "end",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/ric_end.html"
+    }
+  ],
+  "thumbnailURL": "assets/images/logo_horizontal.jpg"
+}

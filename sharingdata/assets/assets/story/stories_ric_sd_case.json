@@ -1,0 +1,201 @@
+{
+  "title": "Sharing data?",
+  "shortTitle": "Sharing data?",
+  "bannerImageURL": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/sharingdata/sharingdata.png",
+  "id": "sharing_data",
+  "metadata": {
+    "createdOn": 1768241562,
+    "lastEdited": 1768241562,
+    "authors": [
+      "Doris Schroeder",
+      "Kate Chatfield",
+      "Hazel Partington",
+      "Univ. of Tartu"
+    ]
+  },
+  "startingComponentID": "sd_index",
+  "components": [
+
+    {
+      "id": "sd_index",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/sharingdata/sharingdata_index.html"
+    },
+
+    {
+      "id": "sd_video",
+      "type": "video",
+      "content": "<h1>Sharing data?</h1>",
+      "videoURL": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/sharingdata/Research_Integrity_Club_Case_4_720P.mp4",
+      "startTime": 0,
+      "endTime": 0
+    },
+
+    {
+      "id": "sd_definition",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/sharingdata/sharingdata_definition.html"
+    },
+
+    {
+      "id": "sd_poll_before",
+      "type": "poll",
+      "prompt": "Please be honest. These polls are anonymous. ",
+      "content": "Putting yourself in the role of the supervisor,\nwhich option do you find most convincing?\nTick one option.",
+      "options": [
+        {
+          "id": 0,
+          "title": "I will ask Winter to consult with our research ethics committee to see whether the informed consent limitation can be overcome through data anonymisation. If 'yes', then Summer should share her data in the spirit of open science.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "Winter should obtain his own data. Accessing poor communities during an epidemic and obtaining meaningful research data is a very burdensome undertaking. Why should Summer carry the burden for others?",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "To foster and improve their collaboration skills, I will ask them to find a solution themselves. At PhD level, they should be able to do so.",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "There is no easy answer as there are issues of consent and open science but also of equity to consider. I will meet with both students to find a mutually agreeable solution.",
+          "description": ""
+        }
+      ],
+      "feedback": "You can follow the conversation between Summer, Winter and their Supervisor below."
+    },
+
+    {
+      "id": "sd_discussion_1",
+      "type": "discussion",
+      "title": "Follow this discussion between the researcher and a research ethics committee member.",
+      "participants": [
+        {
+          "name": "Supervisor",
+          "image": "assets/images/sd_Supervisor.png"
+        },
+        {
+          "name": "Summer",
+          "image": "assets/images/sd_Summer.png"
+        },
+        {
+          "name": "Winter",
+          "image": "assets/images/sd_Winter.png"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Thanks for coming, I hope this meeting will help us resolve a very complex matter. \nFirst of all, major congratulations to Summer for collecting important data in very difficult circumstances. I have looked at some of the data, and they are excellent.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Thanks, Prof. I am glad. It was extremely difficult to go to different locations during the epidemic. I tried to make sure that no community felt over- or under-researched, which made the data collection very complex and time-consuming.",
+          "senderIndex": 1
+        },
+        {
+          "text": "Really well done, Summer. It must have helped that you speak Swahili. People trusted you. They might not trust me, which is one of the reasons why I thought you could share your data with me.",
+          "senderIndex": 2
+        },
+        {
+          "text": "Indeed, Winter, but let's try to unpick the main challenges. The first challenge concerns consent, but we mustn't forget the second one: equity.\nYou obtained consent for one study, Summer, no passing on of data to others for similar studies was agreed, correct?",
+          "senderIndex": 0
+        },
+        {
+          "text": "Yes, that's correct. I have consent for the purpose of my PhD and potential papers that are based on the PhD. And it's important to me that I respect the consent that was given to me.",
+          "senderIndex": 1
+        },
+        {
+          "text": "Of course. As you know from your ethics training, there are possibilities for sharing data without consent. The data have to be anonymised and permission would have to be given for re-use of the anonymised data by our research ethics committee.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Yes, I understand. The problem is that a lot of my data count as sensitive personal data, being about the epidemic, and some of them are from in-depth qualitative interviews. It may be difficult to anonymise them.",
+          "senderIndex": 1
+        },
+        {
+          "text": "On this point, the best we can achieve in this meeting is that you agree to discuss which data sets there are, which would be relevant to Winter's PhD, and then have a discussion with the research ethics committee. It is not something we can resolve here, only the committee can tell you whether they will approve re-use of your anonymised data.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Ok. But what do you mean about equity, because I have some reservations that have nothing to do with anonymity and consent.",
+          "senderIndex": 1
+        },
+        {
+          "text": "I can imagine. Personally, I can see a tension between the requirements of open science and equity for scholars from lower income countries.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Me too but tell me what you think first.",
+          "senderIndex": 1
+        },
+        {
+          "text": "From what I remember the ethics approval took you 4 months as you had to revise the application 3 times before you gained approval. Then the fieldwork took 8 months, with two, long overseas trips. And putting it bluntly, now we are talking about somebody else using your anonymised data for just a citation and acknowledgement in a PhD footnote?",
+          "senderIndex": 0
+        },
+        {
+          "text": "Exactly. For so many years, scholars from my region have collected research data for scholars from the North and all we got was a footnote, if anything at all. It's not equitable. Obtaining data in resource-limited settings is a very difficult task that requires trust building and it's also an intellectual contribution to research. To get meaningful data in an ethical manner can be very challenging.",
+          "senderIndex": 1
+        },
+        {
+          "text": "I can totally get that, Summer. But there are also the requirements of open science. Open science requires that we make our data available to others. I have already done that with a lot of my data. It reduces the wasting of time and resources and encourages collaboration.",
+          "senderIndex": 2
+        },
+        {
+          "text": "That is also correct. Open science requires data sharing wherever possible because ultimately, this helps to maximise the contribution of the research participants, it speeds up research and increases public benefit. The idea is that sharing data helps humanity.\n\nBut the requirement for open science might inadvertently facilitate the exploitation of some researchers – like the data collector. This is something that all researchers need to be aware of.",
+          "senderIndex": 0
+        },
+        {
+          "text": "Thank you for your insights, Prof and Summer. You have raised some points that I had not considered before.",
+          "senderIndex": 2
+        },
+        {
+          "text": "Hmmm.",
+          "senderIndex": 1
+        },
+        {
+          "text": "How about this, you explore options for data sharing with the research ethics committee and then we revisit options for benefits for Summer that might go beyond a footnote acknowledgement. At the moment, there is no straightforward answer, but it's worth giving this some thought.",
+          "senderIndex": 0
+        }
+      ]
+    },
+
+    {
+      "id": "sd_poll_after",
+      "type": "poll",
+      "prompt": "Please be honest. These polls are anonymous.",
+      "content": "Now that you have followed this discussion,\rplease tick the option that you are most convinced of.\rOnly tick one option.",
+      "options": [
+        {
+          "id": 0,
+          "title": "I will ask Winter to consult with our research ethics committee to see whether the informed consent limitation can be overcome through data anonymisation. If yes, then Summer should share her data in the spirit of open science.",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "title": "Winter should obtain his own data. Accessing poor communities during an epidemic and obtaining meaningful research data is a very burdensome undertaking. Why should Summer carry the burden for others?",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "title": "To foster and improve their collaboration skills, I will ask them to find a solution themselves. At PhD level, they should be able to do so.",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "title": "There is no easy answer as there are issues of consent and open science but also of equity to consider. I will meet with both students to find a mutually agreeable solution.",
+          "description": ""
+        }
+      ],
+      "feedback": "Thank you! You answer has been submitted."
+    },
+
+    {
+      "id": "sd_end",
+      "type": "html",
+      "content": "https://storage.googleapis.com/prepared-project.appspot.com/beyond/sharingdata/sharingdata_end.html"
+    }
+  ],
+  "thumbnailURL": "assets/images/logo_horizontal.jpg"
+}

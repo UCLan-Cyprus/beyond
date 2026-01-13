@@ -1,0 +1,24 @@
+{
+  "$id": "http://prepared-project.eu/exam_question",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string"
+    },
+    "answers": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {"$ref": "http://prepared-project.eu/exam_answer"}
+        ]
+      }
+    },
+    "shuffledAnswers": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "text",
+    "answers"
+  ]
+}
