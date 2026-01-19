@@ -144,7 +144,7 @@
       "maxSelections": 4,
       "columns": 1,
       "prompt": "Please be honest. These polls are anonymous.",
-      "content": "Now that you have followed this discussion, have you changed your opinion about what you would do?\nLet's find out.\nWhich of these options do you find convincing? You can tick more than one option.",
+      "content": "Now that you have followed this discussion, have you changed your opinion about what you would do? Let's find out. Which of these options do you find convincing? You can tick more than one option.",
       "options": [
         {
           "id": 0,
