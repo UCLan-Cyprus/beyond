@@ -166,7 +166,7 @@
       "id": "gk_poll_after",
       "type": "poll",
       "prompt": "Please be honest. These polls are anonymous.",
-      "content": "Now that you have followed this discussion,\rplease tick the option that you are most convinced of.\rOnly tick one option.",
+      "content": "Now that you have followed this discussion, please tick the option that you are most convinced of. Only tick one option.",
       "options": [
         {
           "id": 0,
